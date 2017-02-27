@@ -58,6 +58,7 @@ ActiveRecord::Schema.define(version: 20170217021703) do
 
   create_table "sections", force: true do |t|
     t.string   "title"
+    t.string   "subtitle"
     t.integer  "course_id"
     t.datetime "created_at"
     t.datetime "updated_at"
